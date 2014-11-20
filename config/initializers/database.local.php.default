@@ -1,0 +1,17 @@
+<?php
+
+return [
+
+    'db' => [
+        'adapters' => [
+
+            'Db' => [
+
+                'driver'   => 'Pdo',
+                'dsn'      => 'mysql:dbname=places;host=HOSTNAME',
+                'username' => 'USERNAME',
+                'password' => 'PASSWORD',
+            ],
+        ],
+    ],
+];
